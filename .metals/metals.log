@@ -5,3 +5,28 @@ SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@402c
 SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@662d0a18]
 2024.07.13 23:11:19 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.13 23:11:20 INFO  no build target found for C:\Users\HP\OneDrive\Documents\Scala_Project05\Scala_Practical05\q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jul 13, 2024 11:11:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Jul 13, 2024 11:11:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Jul 13, 2024 11:11:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Jul 13, 2024 11:11:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2024.07.13 23:11:23 INFO  Running List(C:\Users\HP\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\HP\OneDrive\Documents\Scala_Project05\Scala_Practical05)
+2024.07.13 23:11:23 INFO  Attempting to connect to the build server...
+2024.07.13 23:11:23 INFO  Running BSP server List(C:\Users\HP\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\HP\OneDrive\Documents\Scala_Project05\Scala_Practical05\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\HP\OneDrive\Documents\Scala_Project05\Scala_Practical05\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\HP\OneDrive\Documents\Scala_Project05\Scala_Practical05\.scala-build\ide-envs.json, C:\Users\HP\OneDrive\Documents\Scala_Project05\Scala_Practical05)
+2024.07.13 23:11:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\HP\OneDrive\Documents\Scala_Project05\Scala_Practical05\.metals\bsp.trace.json or C:\Users\HP\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.13 23:11:26 INFO  BSP server: Starting compilation server
+2024.07.13 23:11:28 WARN  Could not find semantic tokens for: file:///C:/Users/HP/OneDrive/Documents/Scala_Project05/Scala_Practical05/q1.scala
+2024.07.13 23:11:33 INFO  time: Connected to build server in 10s
+2024.07.13 23:11:33 INFO  Connected to Build server: scala-cli v1.3.2
+2024.07.13 23:11:35 INFO  compiling scala_practical05_f4dd477a3a (1 scala source)
+2024.07.13 23:11:37 INFO  time: Imported build in 3.84s
+2024.07.13 23:11:37 INFO  running doctor check
+2024.07.13 23:11:37 INFO  java targets: Scala_Practical05_f4dd477a3a, Scala_Practical05_f4dd477a3a-test
+2024.07.13 23:11:42 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.13 23:11:50 INFO  time: indexed workspace in 12s
+2024.07.13 23:11:52 WARN  Could not find semantic tokens for: file:///C:/Users/HP/OneDrive/Documents/Scala_Project05/Scala_Practical05/q1.scala
+2024.07.13 23:11:54 WARN  Could not find semantic tokens for: file:///C:/Users/HP/OneDrive/Documents/Scala_Project05/Scala_Practical05/q1.scala
