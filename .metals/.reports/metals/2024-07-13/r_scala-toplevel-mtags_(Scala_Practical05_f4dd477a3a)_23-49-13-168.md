@@ -1,12 +1,5 @@
-object InventoryManagementSystem {
+error id: file:///C:/Users/HP/OneDrive/Documents/Scala_Project05/Scala_Practical05/q1.scala:[653..654) in Input.VirtualFile("file:///C:/Users/HP/OneDrive/Documents/Scala_Project05/Scala_Practical05/q1.scala", "object InventoryManagementSystem {
     import scala.io.StdIn.readLine
-
-    def main(args: Array[String]): Unit = {
-        val products = getProductList()
-        printProductList(products)
-        val totalProducts = getTotalProduct(products)
-        println(s"Total number of products entered: $totalProducts")
-    }
 
     def getProductList(): List[String] = {
         var products = List[String]()
@@ -27,9 +20,14 @@ object InventoryManagementSystem {
                 println(s"${index + 1}.$product")
             }
     }
-    def getTotalProduct(products: List[String]): Int = {
-        products.length
-    }
-
+    def 
 }
 
+")
+file:///C:/Users/HP/OneDrive/Documents/Scala_Project05/Scala_Practical05/q1.scala
+file:///C:/Users/HP/OneDrive/Documents/Scala_Project05/Scala_Practical05/q1.scala:24: error: expected identifier; obtained rbrace
+}
+^
+#### Short summary: 
+
+expected identifier; obtained rbrace

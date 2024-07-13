@@ -1,13 +1,7 @@
-object InventoryManagementSystem {
+error id: file:///C:/Users/HP/OneDrive/Documents/Scala_Project05/Scala_Practical05/q1.scala:[87..90) in Input.VirtualFile("file:///C:/Users/HP/OneDrive/Documents/Scala_Project05/Scala_Practical05/q1.scala", "object InventoryManagementSystem {
     import scala.io.StdIn.readLine
 
-    def main(args: Array[String]): Unit = {
-        val products = getProductList()
-        printProductList(products)
-        val totalProducts = getTotalProduct(products)
-        println(s"Total number of products entered: $totalProducts")
-    }
-
+    def
     def getProductList(): List[String] = {
         var products = List[String]()
         var input = ""
@@ -33,3 +27,11 @@ object InventoryManagementSystem {
 
 }
 
+")
+file:///C:/Users/HP/OneDrive/Documents/Scala_Project05/Scala_Practical05/q1.scala
+file:///C:/Users/HP/OneDrive/Documents/Scala_Project05/Scala_Practical05/q1.scala:5: error: expected identifier; obtained def
+    def getProductList(): List[String] = {
+    ^
+#### Short summary: 
+
+expected identifier; obtained def
