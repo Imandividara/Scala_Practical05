@@ -22,11 +22,15 @@ object InventoryManagementSystem {
         }
         products
     }
-    def printProductList(products: List[String]): Unit ={
-        products.zipWithIndex.foreach{ case (product,index) =>
-                println(s"${index + 1}.$product")
-            }
-    }
+    def printProductList(products: List[String], index: Int = 0): Unit = {
+       products match {
+         case Nil => 
+         case head :: tail =>
+           println(s"${index + 1}. $head")
+           printProductList(tail, index + 1)
+  }
+}
+
     def getTotalProduct(products: List[String]): Int = {
         products.length
     }

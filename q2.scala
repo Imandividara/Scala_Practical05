@@ -4,7 +4,7 @@ import scala.io.StdIn.readLine
 case class Book(title: String, author: String, isbn: String)
 
 object LibraryApp {
-  // Initial set of books
+  
   val library: HashSet[Book] = HashSet(
     Book("Amba Yaluwo", "T B Ilangarathne", "1234567890"),
     Book("Gamperaliya", "Martin Wickramasinghe", "2345678901"),
